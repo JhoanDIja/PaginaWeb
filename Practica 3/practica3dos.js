@@ -18,3 +18,18 @@
   {
       document.writeln(b + " es negativo");
   }
+
+  if(a>0 && b>0)
+{
+  document.writeln("dos de dos positivos");
+}
+else if(a >0 && b<0)
+{
+    document.writeln("uno de dos positivos");
+}
+
+else if(a<0 && b<0)
+{
+  document.writeln("dos de dos negativos");
+}
+

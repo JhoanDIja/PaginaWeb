@@ -6,5 +6,9 @@
   {
     document.writeln("No se puede dividir entre 0");
   }
-  let result = numberOne/numberTwo;
-  document.writeln("El resultado de esa division es" + result);
+  else
+  {
+    let result = numberOne/numberTwo;
+    document.writeln("El resultado de esa division es" + result);
+  }
+
